@@ -1,0 +1,1 @@
+sifat(baik,buruk)

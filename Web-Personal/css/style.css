@@ -1,0 +1,70 @@
+
+  body {
+    background-color:gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 300%;
+    padding: 10px;
+    border: 2px solid salmon;
+  }
+  
+  .profile{
+    float:right;
+  }
+
+  .profile .caption {
+    margin-top: 0.2rem;
+    font-style: italic;
+    color:salmon;
+    text-align: center;
+    text-shadow:
+    -0.5px -0.5px 0 black,
+     0.5px -0.5px 0 black,
+    -0.5px  0.5px 0 black,
+     0.5px  0.5px 0 black;
+}
+
+  .profile img {
+    width: 250px;
+    height: 250px;
+    margin: 1rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .text-content{
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 250px;
+    background-color: salmon;
+    color: white;
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .icon {
+    margin-right: 10px; 
+    font-size: 1.2rem; 
+  }
+
+  .nav-links{
+    list-style: none;
+    padding:1rem;
+  }
+
+  .nav-links li a {
+    display: flex;
+    align-items: center; /* Tengah vertikal */
+    color: white; /* Warna teks */
+    text-decoration: none; /* Hapus underline */
+    padding: 0.8rem 1.5rem; /* Spacing internal */
+    margin: 0.2rem 0; /* Spacing antar item */
+    transition: all 0.3s ease; /* Animasi hover */
+  }
