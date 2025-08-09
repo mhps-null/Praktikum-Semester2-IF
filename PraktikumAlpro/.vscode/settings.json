@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "boolean.h": "c",
+        "cstdlib": "cpp",
+        "moveon.h": "c"
+    }
+}
